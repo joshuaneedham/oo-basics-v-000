@@ -13,5 +13,4 @@ def cobble
   else
     no_repair
   end
-
 end
