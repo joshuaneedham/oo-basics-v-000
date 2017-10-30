@@ -12,5 +12,6 @@ class Shoe
       puts "Your shoe is as good as new!"
     else
       puts "new"
+    end
   end
 end
