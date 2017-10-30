@@ -8,10 +8,5 @@ class Shoe
   end
 
   def cobble
-    if @condition != new
-      repair
-    else
-      no_repair
-    end
   end
 end
