@@ -7,10 +7,11 @@ class Shoe
     @brand = brand
   end
 
-def cobble
-  if @condition != new
-    repair
-  else
-    no_repair
+  def cobble
+    if @condition != new
+      repair
+    else
+      no_repair
+    end
   end
 end
