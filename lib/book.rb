@@ -11,6 +11,7 @@ class Book
       repair
     else
       no_repair
+    end
   end
 
 end
