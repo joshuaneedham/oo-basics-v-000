@@ -6,8 +6,11 @@ class Book
     @title = title
   end
 
-  def turn_page
-    puts "Flipping the page...wow, you read fast!"
+  def cobble
+    if @condition != new
+      repair
+    else
+      no_repair
   end
 
 end
